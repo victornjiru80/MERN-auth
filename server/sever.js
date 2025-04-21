@@ -15,7 +15,7 @@ connectDB();
 
 
 //frontend link for react app
-const allowedOrigins = ['http://localhost:5173']
+const allowedOrigins = [process.env.FRONTEND_URL]
 
 //middlewares
 app.use(express.json());  //all the incoming requests will be parsed using json
