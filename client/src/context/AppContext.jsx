@@ -22,10 +22,18 @@ export const AppContextProvider = (props) =>{
             if(data.success){
                 setIsLoggedin(true);
                 getUserData();
+            }  else{
+                setIsLoggedin(false);
             }
 
         } catch (error) {
-            toast.error(error.message);
+            if (error.response && error.response.status === 401) {
+                 // Handle 401 Unauthorized gracefully
+                console.log("User is not authenticated");
+                setIsLoggedin(false);    // Ensure the user is logged out
+            } else{
+                console.error("Auth State Error:", error); // Handle other errors
+            }
         }   
         
     }
