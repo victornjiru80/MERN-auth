@@ -9,16 +9,16 @@ export const AppContext = createContext();
 
 export const AppContextProvider = (props) =>{
 
-    axios.defaults.withCredentials = true;
+    axios.defaults.withCredentials = true;    //for allowing cookies
 
     const backendUrl = import.meta.env.VITE_BACKEND_URL || "https://server-eta-brown.vercel.app";
     const [isLoggedin, setIsLoggedin] = useState(false)
     const [userData, setUserData] = useState(false);
 
+    
     const getAuthState = async() =>{
         try {
             const {data} = await axios.get(`${backendUrl}/api/auth/is-auth`)
-
             if(data.success){
                 setIsLoggedin(true);
                 getUserData();
