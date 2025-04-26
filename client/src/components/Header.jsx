@@ -32,6 +32,9 @@ const Header = () => {
                 <p className='mb-8 max-w-md'>
                   Welcome to our community! We're thrilled to have you join us and become a part of something special. Here, you'll find a supportive and engaging environment where ideas are shared, connections are made, and everyone is valued. Whether you're here to learn, contribute, or simply connect with like-minded individuals, know that you’re among friends. We can’t wait to see the unique perspective and energy you bring—welcome aboard!
                 </p>
+                 <p className='mb-8 max-w-md'>
+                    Now that you're here with us, We would like to show you what our community is about and hopefully your journey with us will be worthwhile!
+                 </div>
           ) : (   
              <>
                 <p className='mb-8 max-w-md'>We are a diverse community of like-minded people and we welcome you to take this journey with us. We are confident that you will fit right in! Take a tour and learn more about us. </p>
