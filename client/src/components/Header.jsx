@@ -34,7 +34,7 @@ const Header = () => {
                 </p>
                  <p className='mb-8 max-w-md'>
                     Now that you're here with us, We would like to show you what our community is about and hopefully your journey with us will be worthwhile!
-                 </div>
+                 </p>
           ) : (   
              <>
                 <p className='mb-8 max-w-md'>We are a diverse community of like-minded people and we welcome you to take this journey with us. We are confident that you will fit right in! Take a tour and learn more about us. </p>
