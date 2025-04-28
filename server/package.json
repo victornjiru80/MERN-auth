@@ -7,8 +7,6 @@
   "type": "module",
   "main": "sever.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js"
 
   },
   "dependencies": {
