@@ -15,7 +15,7 @@ connectDB();
 
 
 //frontend link for react app
-const allowedOrigins = [process.env.FRONTEND_URL, "https://frontend-beige-five-39.vercel.app"]
+const allowedOrigins = ["https://auth-client-ffhz.onrender.com"]
 
 //middlewares
 app.use(express.json());  //all the incoming requests will be parsed using json
