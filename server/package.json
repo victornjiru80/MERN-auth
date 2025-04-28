@@ -5,7 +5,7 @@
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "sever.js",
+  "main": "server.js",
   "scripts": {
        "start": "node server.js"
   },
