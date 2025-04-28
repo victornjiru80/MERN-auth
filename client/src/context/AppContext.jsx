@@ -11,7 +11,7 @@ export const AppContextProvider = (props) =>{
 
     axios.defaults.withCredentials = true;    //for allowing cookies
 
-    const backendUrl = import.meta.env.VITE_BACKEND_URL || "https://server-eta-brown.vercel.app";
+    const backendUrl = "https://auth-backend-wdgd.onrender.com";
     const [isLoggedin, setIsLoggedin] = useState(false)
     const [userData, setUserData] = useState(false);
 
