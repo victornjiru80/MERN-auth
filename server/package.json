@@ -7,7 +7,7 @@
   "type": "module",
   "main": "sever.js",
   "scripts": {
-
+       "start": "node server.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
