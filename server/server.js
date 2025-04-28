@@ -15,7 +15,7 @@ connectDB();
 
 
 //frontend link for react app
-const allowedOrigins = ["https://auth-client-ffhz.onrender.com"]
+const allowedOrigins = "https://auth-client-ffhz.onrender.com"
 
 //middlewares
 app.use(express.json());  //all the incoming requests will be parsed using json
