@@ -15,7 +15,7 @@ const Navbar = () => {
     const navigate = useNavigate();
     const {userData, backendUrl, setUserData, setIsLoggedin} = useContext(AppContext);
 
-      const sendVerificationOtp = async ()=>{
+    /*  const sendVerificationOtp = async ()=>{
         try {
           axios.defaults.withCredentials = true;
 
@@ -32,6 +32,7 @@ const Navbar = () => {
           toast.error(error.message);
         }
       }
+      */
 
 
       const logout = async ()=>{
@@ -59,10 +60,6 @@ const Navbar = () => {
             {userData.name[0].toUpperCase()}
              <div className='absolute hidden group-hover:block top-0 right-0 z-10 text-black rounded pt-10'>
                 <ul className='list-none m-0 p-2 bg-gray-100 text-sm'>
-                  
-                  { !userData.isAccountVerified &&
-                    <li onClick={sendVerificationOtp} className='py-1 px-2 hover:bg-gray-200 cursor-pointer'>Verify Email</li>
-                  }
             
                   <li onClick={logout} className='py-1 px-2 hover:bg-gray-200 cursor-pointer pr-10'>Logout</li>
                 </ul>
