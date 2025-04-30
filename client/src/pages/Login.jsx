@@ -73,7 +73,7 @@ const Login = () => {
               <img src={assets.mail_icon} alt="" />
               <input 
               onChange={e => setEmail(e.target.value)} value = {email}
-              className='bg-transparent outline-none ' type="email" placeholder='Email' required />
+              className='bg-transparent w-full outline-none ' type="email" placeholder='Email' required />
           </div>
 
           <div className='mb-4 flex items-center gap-3 w-full px-5 py-2.5 rounded-full bg-[#333a5c]'>
