@@ -41,7 +41,7 @@ const Header = () => {
         )}
 
         {!isUserLoggedIn ? (
-            <p className='mb-8 max-w-md'>We are a diverse community of like-minded people and we welcome you to take this journey with us. We are confident that you will fit right in! Take a tour and learn more about us. </p>
+            <p className='mb-8 max-w-md'> </p>
         ) : (
             <p className='mb-8 max-w-md'>Welcome back! We're thrilled to have you as part of our community. Your presence adds value, and we can't wait to see the unique contributions you'll make. </p>
         )}
