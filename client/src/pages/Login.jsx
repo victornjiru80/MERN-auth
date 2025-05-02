@@ -53,7 +53,7 @@ const Login = () => {
     <div className='flex items-center justify-center min-h-screen px-6 sm:px-0 '>
       
 
-      <div className='bg-white-900 p-10 rounded-lg shadow-lg w-full sm:w-96 text-indigo-300 text-sm'>
+      <div className='bg-slate-300 p-10 rounded-lg shadow-lg w-full sm:w-96 text-indigo-300 text-sm'>
 
         <h2 className='text-3xl font-semibold text-white text-center mb-3'>{state === 'sign up' ? 'Create Account' : 'Log in'}</h2>
 
@@ -89,7 +89,7 @@ const Login = () => {
                   className='mb-4 text-indigo-500 cursor-pointer'>Forgot password?
                 </p>) }
 
-          <button className='w-full py-2.5 rounded-full bg-gradient-to-r from-indigo-500 to-indigo-900 text-white font-medium'>{state}</button>
+          <button className='w-full py-2.5 rounded-full bg-gradient-to-r from-indigo-200 to-indigo-500 text-white font-medium'>{state}</button>
 
         </form>
 
