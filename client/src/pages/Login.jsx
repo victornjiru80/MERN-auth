@@ -62,21 +62,21 @@ const Login = () => {
         <form onSubmit={onSubmitHandler} >
 
           {state === 'sign up' && (
-             <div className='mb-4 flex items-center gap-3 w-full px-5 py-2.5 rounded-full bg-[#333a5c]'>
+             <div className='mb-4 flex items-center gap-3 w-full px-5 py-2.5 rounded-full'>
               <img src={assets.person_icon} alt="" />
               <input onChange={e => setName(e.target.value)} value = {name}
                className='bg-white outline ' type="text" placeholder='Full Names' required />
              </div>
           )}
          
-          <div className='mb-4 flex items-center gap-3 w-full px-5 py-2.5 rounded-full bg-[#333a5c]'>
+          <div className='mb-4 flex items-center gap-3 w-full px-5 py-2.5 rounded-full '>
               <img src={assets.mail_icon} alt="" />
               <input 
               onChange={e => setEmail(e.target.value)} value = {email}
               className='bg-white w-full outline ' type="email" placeholder='Email' required />
           </div>
 
-          <div className='mb-4 flex items-center gap-3 w-full px-5 py-2.5 rounded-full bg-[#333a5c]'>
+          <div className='mb-4 flex items-center gap-3 w-full px-5 py-2.5 rounded-full'>
               <img src={assets.lock_icon} alt="" />
               <input 
                 onChange={e => setPassword(e.target.value)} value = {password}
