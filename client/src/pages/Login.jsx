@@ -53,7 +53,7 @@ const Login = () => {
     <div className='flex items-center justify-center min-h-screen px-6 sm:px-0 '>
       
 
-      <div className='bg-slate-850 p-10 rounded-lg shadow-lg w-full sm:w-96 text-indigo-300 border-grey-200 text-sm'>
+      <div className='bg-slate-900 p-10 rounded-lg shadow-lg w-full sm:w-96 text-indigo-300 text-sm'>
 
         <h2 className='text-3.5xl font-semibold text-center mb-3'>{state === 'sign up' ? 'Create Account' : 'Log in'}</h2>
 
