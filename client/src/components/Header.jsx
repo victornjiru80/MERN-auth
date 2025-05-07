@@ -25,7 +25,7 @@ const Header = () => {
       <div className='flex flex-col items-center mt-20 px-4 text-center text-gray-800'>
 
        {!isUserLoggedIn ? (
-            <img src={assets.header_img} alt="" className='w-46 h-26 rounded-md mb-6' />
+            <img src={assets.header_img} alt="" className='w-46 h-46 rounded-full mb-6' />
             ) : (
               <p></p>
             ) } 
