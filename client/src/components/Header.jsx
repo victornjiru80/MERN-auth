@@ -37,13 +37,13 @@ const Header = () => {
         {!isUserLoggedIn ? (
            <h2 className='text-3xl sm:text-5xl font-semibold mb-4'>Welcome to our Community!</h2>
         ) : (
-          <h2 className='text-3xl sm:text-5xl font-semibold mb-4'> Here's What You Need To Know About Us </h2>
+          <h2 className='text-3xl sm:text-5xl font-semibold mb-4'> </h2>
         )}
 
         {!isUserLoggedIn ? (
             <p className='mb-8 max-w-md'> </p>
         ) : (
-            <p className='mb-8 max-w-md'>Welcome back! We're thrilled to have you as part of our community. Your presence adds value, and we can't wait to see the unique contributions you'll make. </p>
+            <p className='mb-8 max-w-md'> We're thrilled to have you as part of our community. Your presence adds value, and we can't wait to see the unique contributions you'll make. </p>
         )}
 
 
