@@ -10,8 +10,8 @@ import userRouter from './routes/userRoutes.js';
 
 
 const app = express();
-const port = process.env.PORT || 4000 //if the port wont find the one on the .env file it'll run on 4000
-connectDB();
+const port = process.env.PORT || 4000 //if the port won't find the one on the .env file it'll run on 4000
+connectDB();     //connecting to the db
 
 
 //frontend link for react app
