@@ -4,8 +4,7 @@ import userModel from '../models/userModel.js'
 
 export const getUserData = async (req, res) =>{
 
-    try {
-        
+    try      
         const userId =req.user._id; //get userId from token
 
         //find user in db using userId
